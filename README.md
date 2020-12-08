@@ -69,7 +69,10 @@ Discord is an integral part of many students' lives. Whether we are playing vide
  > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Kanban board. 
  ## Screenshots
- > Screenshots of the input/output after running your application
+ ![Riot](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/screenshots/riot.png?raw=true)
+ ![Kanye](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/screenshots/kanye.png?raw=true)
+ ![Pomodoro](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/screenshots/pomodoro.png?raw=true)
+ ![Help](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/screenshots/help.png?raw=true)
  ## Installation/Usage
  *Instructions for Modification:*
  1. Install NodeJS
