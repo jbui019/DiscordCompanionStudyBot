@@ -16,7 +16,7 @@ export class PomodoroCommand extends Command<CommandType.pomodoro> {
                 await this.Pomodoro.execute();
                 //await pomodoro receiver
             } catch (err) {
-                console.error(`Could not execute Command Ping. Error: ${err.message}`);
+                console.error(`Could not execute Command Pomodoro. Error: ${err.message}`);
             }
         }
     }

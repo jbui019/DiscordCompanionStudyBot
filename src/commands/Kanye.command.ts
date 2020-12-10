@@ -15,7 +15,7 @@ export class KanyeCommand extends Command<CommandType.kanye> {
                 //implement kanye api call
                 await executeKanye(this.message, this.client);
             } catch (err) {
-                console.error(`Could not execute Command Ping. Error: ${err.message}`);
+                console.error(`Could not execute Command Kanye. Error: ${err.message}`);
             }
         }
     }

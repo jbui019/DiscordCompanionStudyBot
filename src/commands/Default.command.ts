@@ -12,7 +12,7 @@ export class DefaultCommand extends Command<CommandType.default> {
             try {
                 await this.message.reply('Invalid Command');
             } catch (err) {
-                console.error(`Could not execute Command Ping. Error: ${err.message}`);
+                console.error(`Could not execute Command Default. Error: ${err.message}`);
             }
         }
     }

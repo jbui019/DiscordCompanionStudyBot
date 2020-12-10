@@ -31,7 +31,7 @@ export class HelpCommand extends Command<CommandType.help> {
             try {
                 await this.message.reply(this.helpEmbed);
             } catch (err) {
-                console.error(`Could not execute Command Ping. Error: ${err.message}`);
+                console.error(`Could not execute Command Help. Error: ${err.message}`);
             }
         }
     }

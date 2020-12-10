@@ -13,7 +13,7 @@ export class RiotCommand extends Command<CommandType.riot> {
             try {
                 await executeRiot(this.message, this.client, this.summonerName);
             } catch (err) {
-                console.error(`Could not execute Command Ping. Error: ${err.message}`);
+                console.error(`Could not execute Command Riot. Error: ${err.message}`);
             }
         }
     }
