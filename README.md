@@ -25,7 +25,6 @@ Discord is an integral part of many students' lives. Whether we are playing vide
   - Strategy
     - Strategy is a design pattern that lets me define a family of algorithms. There are several ways to run a pomodoro bot. We will implement three types of studying: long focus & short break, long focus & long break, short focus & short break, and short focus & last break. If we would like to implement more strategies, we could just add them as inheritors of the strategy interface.
 
- > ## Phase II
 ## Class Diagram 
  ![Class Diagram](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/CS100.png?raw=true)
  
@@ -63,11 +62,6 @@ Discord is an integral part of many students' lives. Whether we are playing vide
   TLDR:
   Whenever a user in a discord server sends a message with the prefix: "!!" the bot will parse the message and execute the correct command. If the command is "!!Riot [summonerName]" then the discord bot will fetch statistics from a person's latest League Match". If the command is "!!Pomodoro [strategy]" the bot will parse the strategy and execute the respective strategy
 
- > ## Final deliverable
- > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Kanban board. 
  ## Screenshots
  ![Riot](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/screenshots/riot.png?raw=true)
  ![Kanye](https://github.com/cs100/final-project-adima009-slagu002-jbui019/blob/master/screenshots/kanye.png?raw=true)
