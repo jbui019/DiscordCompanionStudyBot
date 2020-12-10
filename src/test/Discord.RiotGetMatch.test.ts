@@ -1,4 +1,4 @@
-require('dotenv').config({path: __dirname + '/../.env'});
+require('dotenv').config({path: __dirname + '/../../.env'});
 import axios from 'axios';
 
 let champId: number;
@@ -44,7 +44,7 @@ describe('executeRiot', () =>{
     describe('getMatch', () => {
         it('should be the same match', async () => {
             let data = {
-                gameId: 3695716766,
+                gameId: 3699524635,
                 id: 'O_1ySJMgZ_UQgjZtZ7hloLH85HsVoQZgmxV1iFvbK1HNNLk',
                 champId: 81,
             };
@@ -65,7 +65,7 @@ describe('executeRiot', () =>{
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             gameId: 3695716766,
+    //             gameId: 3699524635,
     //             id: 'O_1ySJMgZ_UQgjZtZ7hloLH85HsVoQZgmxV1iFvbK1HNNLk',
     //             champId: 81,
     //         };
@@ -84,7 +84,7 @@ describe('executeRiot', () =>{
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             gameId: 3695716766,
+    //             gameId: 3699524635,
     //             id: 'O_1ySJMgZ_UQgjZtZ7hloLH85HsVoQZgmxV1iFvbK1HNNLk',
     //             champId: 81,
     //         };
@@ -103,7 +103,7 @@ describe('executeRiot', () =>{
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             gameId: 3695716766,
+    //             gameId: 3699524635,
     //             id: 'O_1ySJMgZ_UQgjZtZ7hloLH85HsVoQZgmxV1iFvbK1HNNLk',
     //             champId: 81,
     //         };

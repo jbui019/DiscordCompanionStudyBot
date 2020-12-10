@@ -1,4 +1,4 @@
-require('dotenv').config({path: __dirname + '/../.env'});
+require('dotenv').config({path: __dirname + '/../../.env'});
 import axios from 'axios';
 
 let champId: number;
@@ -88,11 +88,11 @@ describe(`executeRiot`, () => {
         it('should be the same match data', async () => {
             let data = {
                 champId: 81,
-                gameId: 3695716766,
-                win: true,
+                gameId: 3699524635,
+                win: false,
                 currentRank: 'GOLD II 75 LP',
                 WL: '249W 230L',
-                kda: '5/8/10(1.3)'
+                kda: '7/4/9 (4.00)'
             };
     
             let riot = getAccount('El Platano');
@@ -114,12 +114,12 @@ describe(`executeRiot`, () => {
     // describe('getMatch', () => {
     //     it('should be the same match data', async () => {
     //         let data = {
-    //             champId: 81,
-    //             gameId: 3695716766,
-    //             win: true,
-    //             currentRank: 'GOLD 2 75LP',
-    //             WL: '249W 230L',
-    //             kda: '5/8/10(1.3)'
+                // champId: 81,
+                // gameId: 3699524635,
+                // win: false,
+                // currentRank: 'GOLD II 75 LP',
+                // WL: '249W 230L',
+                // kda: '7/4/9(4)'
     //         };
     
     //         let riot = getAccount('El Platano');
@@ -136,12 +136,12 @@ describe(`executeRiot`, () => {
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             champId: 81,
-    //             gameId: 3695716766,
-    //             win: true,
-    //             currentRank: 'GOLD 2 75LP',
-    //             WL: '249W 230L',
-    //             kda: '5/8/10(1.3)'
+                // champId: 81,
+                // gameId: 3699524635,
+                // win: false,
+                // currentRank: 'GOLD II 75 LP',
+                // WL: '249W 230L',
+                // kda: '7/4/9(4)'
     //         };
     
     //         let riot = getAccount('El Platano');
@@ -158,12 +158,12 @@ describe(`executeRiot`, () => {
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             champId: 81,
-    //             gameId: 3695716766,
-    //             win: true,
-    //             currentRank: 'GOLD 2 75LP',
-    //             WL: '249W 230L',
-    //             kda: '5/8/10(1.3)'
+                // champId: 81,
+                // gameId: 3699524635,
+                // win: false,
+                // currentRank: 'GOLD II 75 LP',
+                // WL: '249W 230L',
+                // kda: '7/4/9(4)'
     //         };
     
     //         let riot = getAccount('El Platano');
@@ -180,12 +180,12 @@ describe(`executeRiot`, () => {
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             champId: 81,
-    //             gameId: 3695716766,
-    //             win: true,
-    //             currentRank: 'GOLD 2 75LP',
-    //             WL: '249W 230L',
-    //             kda: '5/8/10(1.3)'
+                // champId: 81,
+                // gameId: 3699524635,
+                // win: false,
+                // currentRank: 'GOLD II 75 LP',
+                // WL: '249W 230L',
+                // kda: '7/4/9(4)'
     //         };
     
     //         let riot = getAccount('El Platano');
@@ -202,12 +202,12 @@ describe(`executeRiot`, () => {
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             champId: 81,
-    //             gameId: 3695716766,
-    //             win: true,
-    //             currentRank: 'GOLD 2 75LP',
-    //             WL: '249W 230L',
-    //             kda: '5/8/10(1.3)'
+                // champId: 81,
+                // gameId: 3699524635,
+                // win: false,
+                // currentRank: 'GOLD II 75 LP',
+                // WL: '249W 230L',
+                // kda: '7/4/9(4)'
     //         };
     
     //         let riot = getAccount('El Platano');
@@ -224,12 +224,12 @@ describe(`executeRiot`, () => {
     // describe('getMatch', () => {
     //     it('should be the same match', async () => {
     //         let data = {
-    //             champId: 81,
-    //             gameId: 3695716766,
-    //             win: true,
-    //             currentRank: 'GOLD 2 75LP',
-    //             WL: '249W 230L',
-    //             kda: '5/8/10(1.3)'
+                // champId: 81,
+                // gameId: 3699524635,
+                // win: false,
+                // currentRank: 'GOLD II 75 LP',
+                // WL: '249W 230L',
+                // kda: '7/4/9(4)'
     //         };
     
     //         let riot = getAccount('El Platano');

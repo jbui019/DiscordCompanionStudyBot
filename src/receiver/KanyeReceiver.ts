@@ -12,7 +12,7 @@ let newEmbed = (quote: string) => {
 
 }
 
-export async function executeKanye(message: Message, cleint: Client){
+export async function executeKanye(message: Message, client: Client){
     let response = await kanyeInstance.get('');
     console.log(response.data);
     await message.reply(newEmbed(response.data.quote));
