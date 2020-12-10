@@ -76,11 +76,12 @@ Discord is an integral part of many students' lives. Whether we are playing vide
  5. Create a file called ".env" in the parent directory and add your discord_token and RIOT_API keys
  6. run yarn install
  7. run yarn dev
- 8. type !! help in your server to see the rest of the commands
+ 8. type "!! help" in your server to see the rest of the commands
  
  *Instructions for face value installation*
  1. https://discord.com/oauth2/authorize?client_id=780286482828230656&scope=bot
  2. add issues whenever the riot command does not work (we need to reset the API key)
+ 3. type "!! help" in your server to see the rest of the commands
  
  ## Testing
  We created **100+** test cases for this project. We utilized jest, a testing framework for javascript to test our code. Because our actual application required Discord API libraries, we needed to create stubs, drivers, and complete mocks of the actual discord bot. In essence, our bot takes in user strings and output strings but with a little more flare and Discord API magic behind the scenes. Down to its core, the application can be broken down into just user strings and output strings. Thus, our mocks stripped down the Discord API magic and left behind just the essentials: async/await, strings, numbers, and objects. We were able to thorougly test our project for different user inputs, handle edge cages, and handle error messages. We first created tests for the command functionality - making sure that the parse function was correctly returning the correct Arguments as well as making sure a message returns the correct command. Then we created test cases for the Kanye, Riot, and Pomodoro commands. We used the jest mocks in order to test that the timers executed the correct time intervals. We also created tests for the array functionality. We wanted to ensure that a user could not issue a study command if the user was already studying or was on break. So, we made sure the arrays in DiscordBot were correctly populated and removved. Finally, we created test cases for the API Commands. For the Kanye command, we tested for random instances. For the riot command, we tested for unexpected user inputs, correct outputs, and API limit edge cases. For integration testing, we manually tested user inputs in our Discord Server.
