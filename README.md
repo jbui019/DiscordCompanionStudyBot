@@ -3,8 +3,6 @@
 
 ## Project Description
 
-**Refactored under Professor Reem Ali's discretion**
-
 Discord is an integral part of many students' lives. Whether we are playing video games, studying for classes, or participating in clubs, Discord makes it easier to communicate with eachother. We personally use Discord in order to communicate about classes, labs, and this project (how meta).
 
 - Tech Stack:
